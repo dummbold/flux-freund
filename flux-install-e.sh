@@ -47,7 +47,7 @@ cat > /etc/nut/ups.conf << EOF
         port = auto
         vendorid = 0925
         productid = 1234
-        desc = "[accurat] Flux 850 UPS am IGEL1"
+        desc = "[accurat] Flux 850 UPS"
         override.device.mfr = "[accurat]"
         override.device.model = "Flux 850 UPS"
 EOF
