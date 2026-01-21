@@ -6,9 +6,9 @@
 
 set -e  # Exit on error
 
-echo "===================================="
-echo "NUT Server Installation für FLUX USV"
-echo "===================================="
+echo "========================================"
+echo "NUT Server Installation für FLUX 850 USV"
+echo "========================================"
 echo ""
 
 # Check if running as root
