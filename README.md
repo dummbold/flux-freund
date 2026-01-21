@@ -19,7 +19,7 @@ Der ****FLUX•Freund**** ist ein Shellscript für Linux zur schnellen Installat
 
 <img width="725" height="329" alt="raspizero" src="https://github.com/user-attachments/assets/84029b31-a10a-428c-b562-e2d7f4e39503" />
 
-Nach der Einrichtung kann man die Daten auch problemlos in Homeassistant übernehmen. Es gibt eine NUT Integration die auf den Server zugreift und alle Daten im System zur Verfügung stellt.
+Nach der Einrichtung stehen die Daten am Port :3493 bereit (keine Website!). Man kann man die Daten auch problemlos in Homeassistant übernehmen. Es gibt eine NUT Integration die auf den Server zugreift und alle Daten im System zur Verfügung stellt. Das sieht dann so aus.
 
 ![hanut](https://github.com/user-attachments/assets/0f6139a7-e8b9-48aa-ae9e-54f6055923c6)
 
