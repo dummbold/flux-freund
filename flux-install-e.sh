@@ -6,9 +6,9 @@
 
 set -e  # Exit on error
 
-echo "=================================="
-echo "NUT Server Installation for UPS"
-echo "=================================="
+echo "===================================="
+echo "NUT Server Installation for FLUX UPS"
+echo "===================================="
 echo ""
 
 # Check if running as root
