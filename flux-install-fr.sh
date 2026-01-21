@@ -6,9 +6,9 @@
 
 set -e  # Exit on error
 
-echo "=================================="
+echo "=================================================="
 echo "Installation du serveur NUT pour onduleur FLUX 850"
-echo "=================================="
+echo "=================================================="
 echo ""
 
 # Check if running as root
