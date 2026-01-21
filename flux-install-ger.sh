@@ -42,10 +42,14 @@ apt-get install -y nut nut-server
 echo ""
 echo "Step 2/5: USV-Konfiguration erstellen (/etc/nut/ups.conf)..."
 cat > /etc/nut/ups.conf << EOF
-[accurat]
-driver = usbhid-ups
-port = auto
-desc = "Accurat Flux 850"
+[flux850_ups]
+        driver = nutdrv_qx
+        port = auto
+        vendorid = 0925
+        productid = 1234
+        desc = "[accurat] Flux 850 UPS"
+        override.device.mfr = "[accurat]"
+        override.device.model = "Flux 850 UPS"
 EOF
 
 echo ""
