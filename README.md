@@ -9,12 +9,15 @@
 
 # FLUX•Freund
 
-Die [accurat] FLUX 850 USV ist eine preisgünstiges Gerät zur unterbrechungsfreien Stromversorgung für kleine Büros bzw. das HomeOffice. Sie verfügt neben dem eingebauten Display auch über einen USB-Anschluss über den Telemetriedaten ausgelesen werden können. Leider gibt es vom Hersteller nur eine Windows-Software dafür. Das USV-Management-System NUT erkennt jedoch die Elektronik und stellt auch den richtigen Treiber zur Verfügung. Allerdings ist die Einrichtung ziemlich komplex und für normale Menschen ohne Expertenwissen kaum durchführbar. Dank der **DeutschlandGPT** gibt es hier die Lösung. 
+Die [accurat] FLUX 850 USV ist eine preisgünstiges Gerät zur unterbrechungsfreien Stromversorgung für kleine Büros bzw. das HomeOffice. Sie verfügt neben dem eingebauten Display auch über einen USB-Anschluss über den Telemetriedaten ausgelesen werden können. 
+
+![Mittel (FLUX860)](https://github.com/user-attachments/assets/e759710c-8a02-4935-a9b5-5228db25ede6)
+
+Leider gibt es vom Hersteller nur eine Windows-Software dafür. Das USV-Management-System NUT erkennt jedoch die Elektronik und stellt auch den richtigen Treiber zur Verfügung. Allerdings ist die Einrichtung ziemlich komplex und für normale Menschen ohne Expertenwissen kaum durchführbar. Dank der **DeutschlandGPT** gibt es hier die Lösung. 
 
 Der ****FLUX•Freund**** ist ein Shellscript für Linux zur schnellen Installation des NUT-Servers zur Nutzung mit dem FLUX. Es ist nur nötig ein Passwort einzugeben. Alles andere macht das Script. Wer keinen Linux-Rechner hat sollte überlegen einen Raspberry PI anzuschaffen. NUT sollte selbst auf einem kleinen Pi Zero 2 laufen. So kann man für eine geringe Investition die USV im Netzwerk monitoren.
 
 <img width="725" height="329" alt="raspizero" src="https://github.com/user-attachments/assets/84029b31-a10a-428c-b562-e2d7f4e39503" />
-
 
 Nach der Einrichtung kann man die Daten auch problemlos in Homeassistant übernehmen. Es gibt eine NUT Integration die auf den Server zugreift und alle Daten im System zur Verfügung stellt.
 
