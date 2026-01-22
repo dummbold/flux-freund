@@ -19,6 +19,10 @@ Der ****FLUX•Freund**** ist ein Shellscript für Linux zur schnellen Installat
 
 <img width="725" height="329" alt="raspizero" src="https://github.com/user-attachments/assets/84029b31-a10a-428c-b562-e2d7f4e39503" />
 
+Empfehlenwert ist ein Upgrade mit einem LAN-HAT, der USB-A und LAN zur Verfügung stellt - der Pi Zero 2 hat nur einen Micro-USB-Anschluss!
+
+<img width="357" height="295" alt="pizerolanhat" src="https://github.com/user-attachments/assets/c7964237-e55e-4613-9e14-10eb446a22e5" />
+
 Nach der Einrichtung stehen die Daten am Port :3493 bereit (keine Website!). Man kann man die Daten in Linux mit dem NUT-Monitor anschauen (sehr rudimentär) aber sie auch problemlos in Homeassistant übernehmen! Es gibt eine NUT Integration die auf den Server zugreift und alle Daten in Homeassistant zur Verfügung stellt. Das sieht dann so aus:
 
 ![hanut](https://github.com/user-attachments/assets/0f6139a7-e8b9-48aa-ae9e-54f6055923c6)
