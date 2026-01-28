@@ -17,7 +17,7 @@ Die [accurat] FLUX 850 USV ist eine preisgünstiges Gerät zur unterbrechungsfre
 
 Leider gibt es vom Hersteller nur eine Windows-Software dafür. Das LINUX USV-Management-System NUT erkennt jedoch die Elektronik und stellt auch den richtigen Treiber zur Verfügung. Allerdings ist die Einrichtung ziemlich komplex und für normale Menschen ohne Expertenwissen kaum durchführbar. Dank der **DeutschlandGPT** gibt es hier die Lösung. 
 
-Der ****FLUX•Freund**** ist ein Shellscript für Linux zur schnellen Installation des NUT-Servers zur Nutzung mit dem FLUX. Es ist nur nötig ein Passwort einzugeben. Alles andere macht das Script. Wer keinen Linux-Rechner hat sollte überlegen einen Raspberry PI anzuschaffen. NUT sollte selbst auf einem kleinen Pi Zero 2 laufen. So kann man für eine geringe Investition die USV im Netzwerk monitoren.
+Der **FLUX•Freund** ist ein Shellscript für Linux zur schnellen Installation des NUT-Servers zur Nutzung mit dem FLUX. Es ist nur nötig ein Passwort einzugeben. Alles andere macht das Script. Wer keinen Linux-Rechner hat sollte überlegen einen Raspberry PI anzuschaffen. NUT sollte selbst auf einem kleinen Pi Zero 2 laufen. So kann man für eine geringe Investition die USV im Netzwerk monitoren.
 
 <img width="725" height="329" alt="raspizero" src="https://github.com/user-attachments/assets/84029b31-a10a-428c-b562-e2d7f4e39503" />
 
@@ -29,6 +29,6 @@ Nach der Einrichtung stehen die Daten am Port :3493 bereit (keine Website!). Man
 
 ![hanut](https://github.com/user-attachments/assets/0f6139a7-e8b9-48aa-ae9e-54f6055923c6)
 
-ACHTUNG: Die Umschaltung des USV-Systemmodus von "line" auf "battery" wird erst nach rund 20 Sekunden in HAOS registriert. Das ist für eine Warnmeldung über HAOS viel zu lang. Die Schuld liegt hier an HAOS, dass die Daten nicht oft genug von der USV holt. Man kann dieses Problem über zwei Wege lösen: Ein Script auf dem Linux Server, sodass dieser die Daten sendet (anstatt dass HAOS sie abholt) – oder am einfachsten über MQTT. Ein MQTT-Topic landet verzögerungsfrei auf dem HAOS-Server und kann dort verarbeitet werden.
+‼️**ACHTUNG:** Die Umschaltung des USV-Systemmodus von "line" auf "battery" wird erst nach rund 20 Sekunden in HAOS registriert. Das ist für eine Warnmeldung über HAOS viel zu lang. Die Schuld liegt hier an HAOS, dass die Daten nicht oft genug von der USV holt. Man kann dieses Problem über zwei Wege lösen: Ein Script auf dem Linux Server, sodass dieser die Daten sendet (anstatt dass HAOS sie abholt) – oder am einfachsten über MQTT. Ein MQTT-Topic landet verzögerungsfrei auf dem HAOS-Server und kann dort verarbeitet werden.
 
 Trotz dieser Einschränkung viel Spaß!
