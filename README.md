@@ -6,7 +6,7 @@
 >
 >_International users:_
 >
->_This Text is intentionally written in german language. Please use your Browsers translation feature. A translation from german into other languages mainly generates better results then a translation from any language (especially english) into german due to the linguistic specifications of the languages. Thanks for your compliance an let me know your experience._
+>_This Text is intentionally written in german language. Please use your Browsers translation feature. A translation from german into other languages mainly generates better results then a translation from any language (especially english) into german due to the linguistic specifications of the languages. German is one of the most complex languages that can easyly be auto-translated into less complex languages. Thanks for your compliance an let me know your experience._
 >
 
 # FLUX•Freund
