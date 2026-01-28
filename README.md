@@ -29,4 +29,6 @@ Nach der Einrichtung stehen die Daten am Port :3493 bereit (keine Website!). Man
 
 ![hanut](https://github.com/user-attachments/assets/0f6139a7-e8b9-48aa-ae9e-54f6055923c6)
 
-Viel Spaß!
+ACHTUNG: Die Umschaltung des USV-Systemmodus von "line" auf "battery" wird erst nach rund 20 Sekunden in HAOS registriert. Das ist für eine Warnmeldung über HAOS viel zu lang. Die Schuld liegt hier an HAOS, dass die Daten nicht oft genug von der USV holt. Man kann dieses Problem über zwei Wege lösen: Ein Script auf dem Linux Server, sodass dieser die Daten sendet (anstatt dass HAOS sie abholt) – oder am einfachsten über MQTT. Ein MQTT-Topic landet verzögerungsfrei auf dem HAOS-Server und kann dort verarbeitet werden.
+
+Trotz dieser Einschränkung viel Spaß!
